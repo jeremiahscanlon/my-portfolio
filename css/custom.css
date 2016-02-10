@@ -28,12 +28,32 @@
 }
 
 .jumbotron {
-	background-image: url("../images/table.jpg");
-	background-position: 0% 25%;
-	background-repeat: no-repeat;
 	padding-top: 145px;
 	padding-bottom: 75px;
 }
+
+.indexJumbo {
+	background-image: url("../images/table.jpg");
+	background-position: 0% 25%;
+	background-repeat: no-repeat;
+}
+
+.aboutJumbo {
+	background-image: url("../images/footer_lodyas.png");
+	background-position: 0% 25%;
+	background-repeat: repeat;
+}
+.contactJumbo {
+	background-image: url("../images/wild_oliva.png");
+	background-position: 0% 25%;
+	background-repeat: repeat;
+}
+.portfolioJumbo {
+	background-image: url("../images/purty_wood.png");
+	background-position: 0% 25%;
+	background-repeat: repeat;
+}
+
 
 .jumbotron h1, .jumbotron p{
 	color:white;
@@ -101,4 +121,21 @@
 
 .spacer {
     margin-top: 40px; /* define margin as you see fit */
+}
+
+.form-group {
+	margin-bottom: 50px;
+}
+
+#contactImg {
+	margin-top: 0px;
+}
+
+.contactForm {
+
+}
+
+.aboutContent p {
+	line-height: 24px;
+	font-size: 14px;
 }
