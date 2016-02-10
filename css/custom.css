@@ -95,6 +95,16 @@
 	margin-bottom: 10px;
 }
 
+.footer ul li a{
+	color: #eee;
+	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	color: #337ab7;
+    background-color: transparent;
+}
+
 .footer .container {
 	max-width: 1170px;
 	padding-top: 10px;
@@ -131,11 +141,27 @@
 	margin-top: 0px;
 }
 
-.contactForm {
-
-}
-
 .aboutContent p {
 	line-height: 24px;
 	font-size: 14px;
 }
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #eee;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #337ab7;
+    background-color: transparent;
+}
+
