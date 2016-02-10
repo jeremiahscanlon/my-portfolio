@@ -1,0 +1,104 @@
+
+.navbar {
+	background: rgba(17, 17, 17, 0.75);
+}
+
+.navbar-brand img {
+	height: 20px;
+}
+
+.nav li img {
+	height: 20px;
+}
+
+.small {
+	height: 20px;
+}
+
+.navbar-default {
+	border:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:white;
+}
+
+.navbar-right li {
+	width:30px;
+}
+
+.jumbotron {
+	background-image: url("../images/table.jpg");
+	background-position: 0% 25%;
+	background-repeat: no-repeat;
+	padding-top: 145px;
+	padding-bottom: 75px;
+}
+
+.jumbotron h1, .jumbotron p{
+	color:white;
+}
+
+.navbar-right {
+	margin-right: 0px;
+}
+
+.section-head {
+	text-align: center;
+}
+
+.thumbnail {
+	border:none;
+}
+
+.footer {
+	background-color: #000;
+	color: #ccc;
+	min-height: 210px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;	
+}
+
+.caption {
+	text-align: center;
+	position: absolute;
+	top: 85px;
+	width: 90%;
+}
+
+.caption p, .caption h3 {
+	color: #fff;
+}
+
+.footer ul li {
+	margin-bottom: 10px;
+}
+
+.footer .container {
+	max-width: 1170px;
+	padding-top: 10px;
+}
+
+.footer .container p {
+	max-width: 80%
+}
+
+.below-footer {
+	height: 40px;
+	width: 100%;
+	background-color: #222;
+	margin: 0px;
+	padding: 0px;
+}
+
+.below-footer p {
+	color: #67686a;
+	text-align: center;
+	line-height: 36px;
+	margin: 0px;
+}
+
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
+}
