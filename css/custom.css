@@ -105,13 +105,17 @@
     background-color: transparent;
 }
 
+.container {
+	width: 1000px;
+}
+
 .footer .container {
 	max-width: 1170px;
 	padding-top: 10px;
 }
 
 .footer .container p {
-	max-width: 80%
+	max-width: 80%;
 }
 
 .below-footer {
